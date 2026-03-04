@@ -22,14 +22,8 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class SpringFirstApplication extends SpringBootServletInitializer {
-
-    @Override
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        return application.sources(SpringFirstApplication.class);
-    }
-
+public class DemoApplication extends SpringBootServletInitializer {
     public static void main(String[] args) {
-        SpringApplication.run(SpringFirstApplication.class, args);
+        SpringApplication.run(DemoApplication.class, args);
     }
 }
