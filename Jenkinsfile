@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/Yellareddy07/SpringBootDeploy.git'
+                git branch:'main' 'https://github.com/Yellareddy07/SpringBootDeploy.git'
             }
         }
 
