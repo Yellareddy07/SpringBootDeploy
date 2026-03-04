@@ -20,7 +20,7 @@ public class HelloController {
 @RestController
 public class HelloController {
 
-    @GetMapping("/")
+    @GetMapping("/hi")
     public String home() {
         return "Application Working";
     }
